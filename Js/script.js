@@ -9,7 +9,7 @@ $('document').ready(() => {
   })
 
   $('#ne').click(() => {
-    $('#ne').text('ZAJEBAVAŠ ME??');
+    $('#ne').text('MORA DA SE ŠALITE??');
     $('#ne').click(() => {
       $('#ne').hide(1000);
     })
