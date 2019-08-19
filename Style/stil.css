@@ -1,0 +1,12 @@
+li {
+    color: aliceblue;
+    background-color: rgb(58, 65, 100);
+  }
+
+  li:hover {
+    cursor: pointer;
+  }
+
+  #omotac {
+    display: none;
+  }

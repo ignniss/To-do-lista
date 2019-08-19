@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Style/stil.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src='Js/script.js'></script>
+  <title>todo</title>
+
+  
+</head>
+
+<body class="bg-secondary">
+
+
+  <div class="bg-secondary container">
+
+    <div class="text-center" id="prvi">
+      <h2 class="font-weight-bold text-warning display-5"> NAPRAVITI NOVU LISTU ZADATAKA?</h2>
+      <button class="btn btn-success mb-2" id="da">DA</button>
+      <button class="btn btn-primary mb-2" id="ne">NE</button>
+    </div>
+
+    <div id="omotac">
+      <h2 class="display-5 font-weight-bold font-italic text-warning text-center">
+        LISTA ZADATAKA
+      </h2>
+      <div class="row">
+        <div class="col-md-9 col-sm-12">
+          <input class="form-control mb-2 mt-2 ml-2" id="unos" type="text" placeholder="unesi stavku">
+        </div>
+        <div class=" col-md-1 col-sm-3">
+          <button class="btn btn-success mt-2 mb-2 float-right " id="dodavanje">DODAJ</button>
+        </div>
+
+        <div class="col-md-1 col-sm-3">
+
+          <button class="btn btn-danger mt-2  mb-2 float-right" id="brisanje">OBRIŠI</button> <br>
+
+        </div>
+
+        <div class="col-md-1 col-sm3-4">
+
+          <input id="brisiSve" class='' type="checkbox"> obriši sve
+        </div>
+      </div>
+
+      <ol class="mt-4" id="lista">
+      </ol>
+    </div>
+  </div>
+
+
+  </div>
+
+
+
+</body>
+
+</html>
